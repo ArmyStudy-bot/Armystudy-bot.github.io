@@ -1,1 +1,54 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
 
+header{
+    background:#006400;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#c62828;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.box{
+    background:white;
+    border:2px solid #c62828;
+}
+
+.box h2{
+    background:#c62828;
+    color:white;
+    margin:0;
+    padding:10px;
+    text-align:center;
+}
+
+.box ul{
+    margin:0;
+    padding:15px;
+}
+
+.box li{
+    margin:10px 0;
+}
