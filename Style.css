@@ -83,3 +83,11 @@ body{
 .menu a:hover{
     color:yellow;
 }
+.breaking-news{
+    background:#ffeb3b;
+    color:#000;
+    font-weight:bold;
+    padding:10px;
+    border-top:2px solid #b30000;
+    border-bottom:2px solid #b30000;
+}
