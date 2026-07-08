@@ -91,3 +91,10 @@ body{
     border-top:2px solid #b30000;
     border-bottom:2px solid #b30000;
 }
+.footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
