@@ -104,3 +104,17 @@ font-weight:bold;
 .buttons a:hover{
 background:#c62828;
     }
+.card a{
+display:inline-block;
+margin-top:12px;
+background:#c62828;
+color:#fff;
+padding:10px 15px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.card a:hover{
+background:#0b5d1e;
+}
