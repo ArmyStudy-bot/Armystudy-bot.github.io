@@ -207,6 +207,45 @@ text-align:center;
 color:#003366;
 margin-bottom:10px;
 }
+.jobs-section{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.column{
+background:#fff;
+border:2px solid #b30000;
+}
+
+.column h2{
+background:#b30000;
+color:#fff;
+padding:12px;
+text-align:center;
+margin:0;
+}
+
+.column ul{
+list-style:none;
+padding:15px;
+}
+
+.column ul li{
+padding:8px 0;
+border-bottom:1px solid #ddd;
+}
+
+.column ul li a{
+text-decoration:none;
+color:#003366;
+font-weight:bold;
+}
+
+.column ul li a:hover{
+color:#b30000;
+}
 
 .box a{
 display:inline-block;
