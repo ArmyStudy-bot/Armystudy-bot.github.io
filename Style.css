@@ -179,3 +179,45 @@ background:#0b5d1e;
 .btn:hover{
     background:#003366;
 }
+.latest{
+padding:40px 20px;
+}
+
+.latest h2{
+text-align:center;
+color:#b30000;
+margin-bottom:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.box{
+background:#fff;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,.15);
+text-align:center;
+}
+
+.box h3{
+color:#003366;
+margin-bottom:10px;
+}
+
+.box a{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#b30000;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.box a:hover{
+background:#003366;
+}
