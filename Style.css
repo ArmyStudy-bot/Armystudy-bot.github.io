@@ -26,6 +26,52 @@ body{
     text-align:center;
     padding:15px;
 }
+.container{
+    width:95%;
+    margin:auto;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.box{
+    flex:1;
+    min-width:300px;
+    background:white;
+    border:2px solid #b30000;
+}
+
+.box h2{
+    background:#b30000;
+    color:white;
+    text-align:center;
+    padding:12px;
+    margin:0;
+}
+
+.box ul{
+    list-style:square;
+    padding:20px;
+}
+
+.box ul li{
+    margin:12px 0;
+}
+
+.box ul li a{
+    text-decoration:none;
+    color:#003366;
+    font-weight:bold;
+}
+
+.box ul li a:hover{
+    color:red;
+}
 
 .menu a{
     color:white;
