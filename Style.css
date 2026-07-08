@@ -1,1 +1,39 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
 
+.top-header{
+    background:#b30000;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+
+.top-header h1{
+    margin:0;
+    font-size:40px;
+}
+
+.top-header p{
+    margin-top:8px;
+    font-size:18px;
+}
+
+.menu{
+    background:#003366;
+    text-align:center;
+    padding:15px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    color:yellow;
+}
