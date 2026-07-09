@@ -158,3 +158,37 @@ body{
     font-weight:bold;
     color:#003366;
 }
+.job-table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+}
+
+.job-table th{
+background:#b30000;
+color:white;
+padding:12px;
+}
+
+.job-table td{
+border:1px solid #ddd;
+padding:12px;
+text-align:center;
+}
+
+.job-table tr:nth-child(even){
+background:#f2f2f2;
+}
+
+.job-table a{
+background:#28a745;
+color:white;
+padding:8px 15px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.job-table a:hover{
+background:#006400;
+}
