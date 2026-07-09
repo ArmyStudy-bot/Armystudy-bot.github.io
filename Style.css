@@ -120,3 +120,36 @@ body{
     margin:10px 0;
     font-size:18px;
 }
+.search-section{
+    background:#ffffff;
+    text-align:center;
+    padding:20px;
+    margin:20px;
+    border:2px solid #b30000;
+}
+
+.search-section input{
+    width:60%;
+    padding:12px;
+    font-size:18px;
+    border:2px solid #003366;
+}
+
+.search-section button{
+    padding:12px 20px;
+    background:#b30000;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.search-section button:hover{
+    background:#003366;
+}
+
+#date{
+    margin-top:15px;
+    font-weight:bold;
+    color:#003366;
+}
