@@ -95,8 +95,13 @@ body{
     background:#003366;
     color:white;
     text-align:center;
-    padding:20px;
+    padding:30px;
     margin-top:40px;
+}
+
+.footer h3{
+    margin-bottom:10px;
+}
 }
 .container{
     width:90%;
