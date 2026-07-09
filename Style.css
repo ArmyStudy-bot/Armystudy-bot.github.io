@@ -98,3 +98,25 @@ body{
     padding:20px;
     margin-top:40px;
 }
+.container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.container h2{
+    background:#b30000;
+    color:white;
+    padding:10px;
+}
+
+.container ul{
+    background:white;
+    padding:20px;
+    border:1px solid #ddd;
+}
+
+.container li{
+    margin:10px 0;
+    font-size:18px;
+}
