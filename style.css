@@ -284,3 +284,44 @@ font-size:16px;
     font-weight:bold;
     margin-top:15px;
 }
+.jobs-table{
+width:95%;
+margin:30px auto;
+overflow-x:auto;
+}
+
+.jobs-table table{
+width:100%;
+border-collapse:collapse;
+background:#fff;
+}
+
+.jobs-table th{
+background:#b30000;
+color:#fff;
+padding:12px;
+}
+
+.jobs-table td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+.jobs-table tr:nth-child(even){
+background:#f7f7f7;
+}
+
+.jobs-table tr:hover{
+background:#ffe8a1;
+transition:0.3s;
+}
+
+.live{
+background:red;
+color:white;
+padding:4px 8px;
+border-radius:4px;
+font-size:12px;
+font-weight:bold;
+}
